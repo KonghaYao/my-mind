@@ -1,5 +1,39 @@
 # my-mind
 
+## JAMStack
+
+```mermaid
+flowchart RL
+
+    subgraph 构建平台
+    Neltify
+    Vercel
+    end
+
+    subgraph 前端框架 
+    Astro 
+    Nextjs 
+    Nuxtjs 
+    end
+    
+    subgraph 内容来源
+    CMS
+    Database
+    OSS
+
+    Contentful --> CMS
+    Storyblok --> CMS
+    MongoDB --> Database
+    MySQL --> Database
+    Postgres --> Database
+    
+    Minio --> OSS
+    
+    end
+
+    内容来源 --提供数据--> 前端框架 --CICD--> 构建平台
+```
+
 ## 中文网字计划脉络
 
 ```mermaid
