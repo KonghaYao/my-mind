@@ -34,12 +34,10 @@ flowchart RL
     内容来源 --提供数据--> 前端框架 --CICD--> 构建平台
 ```
 
-## 中文网字计划脉络
+## 中文网字计划架构
 
 ```mermaid
 flowchart BT
-
-
     FontSubset{{cn-font-split}}
     Plugin{{vite-plugin-font}}
     FontSharp{{font-sharp}}

@@ -33,13 +33,17 @@ mindmap
         PostCSS 生态环境
             tailwind
             unocss
+            autoprefixer
         CSS Modules
     静态资源
         图像处理
             imagemin
+            sharp调整
             svg
         字体压缩
             vite-plugin-font
+        Sitemap生成
+        CDN 资源替换
     SSR 能力
     库构建能力
         多模块构建
